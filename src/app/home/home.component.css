@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+.sidebar{
+    width: 12%;
+    height: 100vh;
+    background-color: rgb(230, 230, 240);
+    border-right: 1px solid rgb(88, 75, 75);
+}
+
+.asana_task button{
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 65%;
+    height: 35px;
+    border-radius: 6px;
+    border: 2px solid rgb(36, 36, 227);
+    background-color: rgb(36, 36, 227);
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+.asana_task button:hover{
+    background-color: rgb(9, 9, 188);
+}
+.content{
+    width: 88%;
+    background-color: antiquewhite;
+}
